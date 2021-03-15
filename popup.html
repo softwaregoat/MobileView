@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        td:nth-child(2) {
+            text-align: right;
+        }
+        tr{
+            text-align: center;
+        }
+    </style>
+
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <link rel="stylesheet" href="bootstrap4-toggle.min.css">
+    <script src="bootstrap4-toggle.min.js"></script>
+
+    <script src="popup.js"></script>
+
+
+</head>
+<body style="width: 600px;">
+    <div class="card-header text-center">
+        <img src="images/Logo1.png" height="50" width="350"/>
+    </div>
+    <div class="card">
+        <div class="card-header text-center">
+            <h5 style="color: red;">Mobile View Extension</h5>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Iphones</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label>Iphone 12 Pro Max</label></td>
+                        <td>
+                            <input type="checkbox" data-toggle="toggle" data-id="iphone12pro-max"
+                                   data-on="Enabled"
+                                   data-off="Disabled">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Iphone 12/Iphone 12 Pro/Iphone 11 Pro/Iphone xs/Iphone 8</label></td>
+                        <td>
+                            <input type="checkbox" data-toggle="toggle" data-id="iphone12"
+                                   data-on="Enabled"
+                                   data-off="Disabled">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Iphone 11/Iphone 11 Pro Max/Iphone XS MAX/Iphone XR</label></td>
+                        <td>
+                            <input type="checkbox" data-toggle="toggle" data-id="iphone11"
+                                   data-on="Enabled"
+                                   data-off="Disabled">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Samsung</th>
+                    <th scope="col"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><label>Samsung Galaxy S21/S20/S10e/S9/S8</label></td>
+                    <td>
+                        <input type="checkbox" data-toggle="toggle" data-id="galaxy-s21"
+                               data-on="Enabled"
+                               data-off="Disabled">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Samsung Galaxy S20+, S10</label></td>
+                    <td>
+                        <input type="checkbox" data-toggle="toggle" data-id="galaxy-s20"
+                               data-on="Enabled"
+                               data-off="Disabled">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Samsung Galaxy S20 Ultra/Note 20 Ultra</label></td>
+                    <td>
+                        <input type="checkbox" data-toggle="toggle" data-id="galaxy-note-20"
+                               data-on="Enabled"
+                               data-off="Disabled">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Samsung Galaxy S9+/S8+/Note 20</label></td>
+                    <td>
+                        <input type="checkbox" data-toggle="toggle" data-id="galaxy-s9"
+                               data-on="Enabled"
+                               data-off="Disabled">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Samsung Galaxy Note 10</label></td>
+                    <td>
+                        <input type="checkbox" data-toggle="toggle" data-id="galaxy-note-10"
+                               data-on="Enabled"
+                               data-off="Disabled">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer text-muted  text-center">
+            Thanks for using!
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "Mobile View",
+  "version": "1.0.0",
+  "description": "Set Mobile View Size to Real size in ClickFunnel.",
+  "icons": {
+    "16": "images/fav.png",
+    "48": "images/fav.png",
+    "128": "images/fav.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "https://*.clickfunnels.com/pages/*",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_title": "Mobile View Extension",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

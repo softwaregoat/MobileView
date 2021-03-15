@@ -1,0 +1,11 @@
+div.containerWrapper {
+    width: 427px !important;
+}
+
+div.mobileRightArea.mobilePreviewBackdrop{
+    display:none !important;
+}
+
+div.mobileLeftArea.mobilePreviewBackdrop{
+    display:none !important;
+}
